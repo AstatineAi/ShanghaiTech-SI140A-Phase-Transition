@@ -12,6 +12,8 @@
         packages = with pkgs; [
           (python3.withPackages (
             ps: with ps; [
+              ipympl
+              ipython
               jupyterlab
               matplotlib
               numpy
